@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto - Mateo Lopez Quintana</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#e4e4e4;color:#222;}
+header{background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat; color:white; padding:48px 20px 72px; text-align:center;}
+header h1{font-size:44px;margin-bottom:16px;}
+header p{font-size:18px;line-height:1.8;max-width:760px;margin:0 auto;opacity:.9;}
+nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;padding:14px 0;margin-bottom:20px;}
+nav .logo{font-size:30px;font-weight:700;letter-spacing:1px;color:white;}
+nav ul{display:flex;flex-wrap:wrap;gap:16px;list-style:none;padding:0;margin:0;align-items:center;}
+nav ul li a{display:inline-flex;align-items:center;justify-content:center;color:white;font-weight:600;font-size:18px;line-height:1; padding:12px 0;text-decoration:none;transition:color .25s ease;}
+nav ul li a:hover{color:#d0d0d0;}
+nav ul li a.contact-link{display:inline-flex;align-items:center;justify-content:center;background:white;color:#111;padding:12px 24px;border-radius:18px;font-weight:700;font-size:18px;line-height:1;box-shadow:0 8px 22px rgba(0,0,0,0.14);border:1px solid rgba(255,255,255,0.22);}
+nav ul li a.contact-link:hover{background:#f5f5f5;color:#111;}
+.container{max-width:930px;margin:30px auto;padding:0 20px;}
+.card{background:white;border-radius:20px;box-shadow:0 0 18px rgba(0,0,0,0.1);padding:36px;margin-bottom:24px;}
+.card h2{font-size:28px;margin-bottom:18px;color:#111;}
+.card p,.card li{font-size:16px;line-height:1.8;color:#555;}
+.contact-list{list-style:none;padding-left:0;}
+.contact-list li{margin-bottom:12px;}
+.contact-list strong{color:#111;}
+.newsletter{display:grid;gap:14px;margin-top:18px;}
+.newsletter input{width:100%;padding:14px 16px;border:1px solid #ccc;border-radius:12px;font-size:16px;}
+.newsletter button{width:max-content;padding:14px 24px;border:none;border-radius:12px;background:#111;color:white;font-weight:700;cursor:pointer;transition:.2s;}
+.newsletter button:hover{background:#333;}
+.links{display:flex;flex-wrap:wrap;gap:16px;margin-top:18px;}
+.links a{display:inline-block;background:white;color:#111;padding:12px 22px;border-radius:14px;text-decoration:none;font-weight:700;box-shadow:0 10px 20px rgba(0,0,0,0.08);transition:0.3s;}
+.links a:hover{background:#f5f5f5;}
+footer{padding:26px 20px;text-align:center;color:#555;}
+@media(max-width:700px){header h1{font-size:30px;} .card{padding:26px;}}
+</style>
+</head>
+<body>
+<header>
+    <nav>
+
+        <div class="logo">
+            TU GIMNASIO IDEAL
+        </div>
+
+        <ul>
+            <li><a href="index.html#inicio">INICIO</a></li>
+            <li><a href="index.html#guia">GUÍA / CONSEJOS</a></li>
+            <li><a href="index.html#gimnasios">GIMNASIOS VCP</a></li>
+            <li><a href="index.html#opiniones">OPINIONES</a></li>
+            <li><a href="contact.html" class="contact-link">CONTACTO</a></li>
+        </ul>
+
+    </nav>
+    
+</header>
+<div class="container">
+    <div class="card">
+        <h2>Información de contacto</h2>
+        <ul class="contact-list">
+            <li><strong>Nombre:</strong> Mateo Lopez Quintana</li>
+            <li><strong>Universidad:</strong> Universidad Blas Pascal</li>
+            <li><strong>Materia:</strong> Diseño multimedia 1</li>
+            <li><strong>Carrera:</strong> Licenciatura en publicidad</li>
+            <li><strong>Año:</strong> 2026</li>
+            <li><strong>Gmail:</strong> mateolopezq77@gmail.com</li>
+        </ul>
+        <div class="links">
+            <a href="index.html">← Volver al inicio</a>
+            <a href="mailto:mateolopezq77@gmail.com">Enviar email</a>
+        </div>
+    </div>
+    <div class="card">
+        <h2>Newsletter</h2>
+        <p>Suscribite para recibir novedades, consejos de entrenamiento y ofertas especiales directamente en tu correo.</p>
+        <div class="newsletter">
+            <input type="email" placeholder="Tu email">
+            <button>Suscribirme</button>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Tu Gimnasio Ideal · Diseño pensado para ayudarte a encontrar el mejor gimnasio en Villa Carlos Paz.</p>
+</footer>
+</body>
+</html>
